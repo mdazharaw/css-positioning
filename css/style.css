@@ -9,3 +9,67 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+.container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+ul{
+  text-align: center;
+  margin-top: 50px;
+  list-style: none;
+  /* display: inline; */
+  padding: 0;
+  
+}
+li{
+  display: inline;
+  margin-right: 5px;
+  font-variant: ;
+  text-transform: uppercase;
+  color:#06365f ;
+  padding: 0;
+}
+h1{
+  font-size: x-large;
+  color: #06365f;
+}
+body{
+  background-image: url("../img/bgtile.png");
+  background-repeat: repeat-x;
+  
+}
+#copyright{
+  color: darkgray;
+}
+.white{
+  margin-left: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.331);
+  border-radius: 5px;
+  padding: 10px;
+}
+#logo{
+  margin-left: 20px;
+
+}
+button{
+  margin-left: 20px;
+  text-align: right;
+  background-image: url("../img/home.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  background-color: #1c5380;
+  color: white;
+}
+#logo{
+  width: 60%;
+}
+.phones{
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
